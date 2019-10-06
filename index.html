@@ -1,74 +1,117 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <title>Мое портфолио</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vladimir Kasim</title>
 
-<div class="header">
-<div class="header_title">Vladimir Kasim</div>
-<div class="header_slogan">Web-programmer</div>
-<div class="icon"></div>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-</div>
+</head>
+
+<body>
+
+	<header>
+		<h2><a href="#">Vladimir Kasim Portfolio</a></h2>
+		<div class="photo"><img src="/assets/img/secondproject.jpg" alt=""></div>
+		<nav>
+			<li><a href="#">Home</a></li>
+			<li><a href="#myprojects">My projects</a></li>
+			<li><a href="#Aboutme">About me</a></li>
+			<li><a href="#Contacts">Contacts</a></li>
+		</nav>
+	</header>
 
 
-<div class="row">
-  <div class="container">
-    
-    <div class="title">
-      Портфолио
-    </div>
+	<section class="hero">
+		<div class="background-image" style="background-image: url(assets/img/hero.jpg);"></div>
+		<h1>My name is Vova, and i'm beginning web developer.</h1>
+		<a href="#myprojects" class="btn">Look on my projects</a>
+	</section>
 
-    <div class="row">
-      <div class="col-4">
-        <div class="portfolio-item">
-          <div class="portfolio-item-img">
-            <img class="img" src="/img/technology-785742_960_720.jpg" alt="PAM">
-          </div>
-          <div class="portfolio-item-title">
-            <a href="#">Макет1</a>
-          </div>
-          <div  class="portfolio-item-text"> <p>Верстка одностраничника по PSD</p></div>
-      </div>
-      </div>
-    </div>
 
-    <div class="row">
-        <div class="col-4">
-          <div class="portfolio-item">
-            <div class="portfolio-item-img">
-                <img class="img" src="/img/technology-785742_960_720.jpg" alt="PAM">
-            </div>
-            <div class="portfolio-item-title">
-              <a href="#">Макет1</a>
-            </div>
-            <div  class="portfolio-item-text"> <p>Верстка одностраничника по PSD</p></div>
-        </div>
-        </div>
-      </div>
+	<section  class="our-work">
+		<h3 id="myprojects" class="title">Some of my projects</h3>
+		<p>Here you can see some of my works</p>
+		<hr>
 
-      <div class="row">
-          <div class="col-4">
-            <div class="portfolio-item">
-              <div class="portfolio-item-img">
-                  <img class="img" src="/img/technology-785742_960_720.jpg" alt="PAM">
-              </div>
-              <div class="portfolio-item-title">
-                <a href="#">Макет1</a>
-              </div>
-              <div  class="portfolio-item-text"> <p>Верстка одностраничника по PSD</p></div>
-          </div>
-          </div>
-        </div>
+		<ul class="grid">
+			<li class="small" style="background-image: url(assets/img/firstproject.jpg;"></li>
+			<li class="large" style="background-image: url(assets/img/secondproject.jpg);"></li>
+			<li class="large" style="background-image: url(assets/img/balloon.jpg);"></li>
+			<li class="small" style="background-image: url(assets/img/mountain.jpg);"></li>
+		</div>
+	</section>
+	
 
-    
+	<section class="features">
+		<h3 id="Aboutme" class="title">About me</h3>
+		<p >I'm Vladimir, a freelance web developer. I work on from front end to back end development. I enjoy each aspect, and love building sites & mobile apps from start to finish, for clients all over the world.</p>
+		<hr>
 
-  </div>
-</div>
-  </body>
+		<ul class="grid">
+			<li>
+				<i class="fa fa-css3"></i>
+				<h4>Front-end</h4>
+				<p>CSS3, Javascript</p>
+			</li>
+			<li>
+				<i class="fa fa-wordpress"></i>
+				<h4>CMS</h4>
+				<p>Drupal, Wordpress</p>
+			</li>
+			<li>
+				<i class="fa fa-tablet"></i>
+				<h4>Apps</h4>
+				<p>Mobile, React Native</p>
+			</li>
+		</div>
+	</section>
+
+
+	<section class="reviews">
+		<h3 class="title">Reviews:</h3>
+
+		<p class="quote">OMG HE IS AWESOME</p>
+		<p class="author">— Misha Volodin</p>
+
+		<p class="quote">I'm wanna kids from him</p>
+		<p class="author">— Arina</p>
+
+		<p class="quote">Vova is the best</p>
+		<p class="author">— All people</p>
+
+		
+	</section>
+
+
+	<section class="contact">
+		<h3 class="title">Feedback</h3>	
+		<p>If you liked my work and you need my services, indicate your email and I will contact you.</p>
+		<hr>
+
+		<form>
+			<input type="email" placeholder="Email">
+			<a href="#" class="btn">Contact me</a>
+		</form>
+	</section>
+
+	<footer>
+		<ul>
+			<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-snapchat-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-github-square"></i></a></li>
+		</ul>
+		<p id="Contacts">Contacts</p>
+		
+	</footer>
+
+</body>
+
 </html>
